@@ -1,0 +1,155 @@
+p{
+	font-family: "Verdana",sans-serif;
+	color: white;
+	font-size: 20px;
+}
+p#titulo{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+p#texto{
+	position: relative;
+	font-size: 14px;
+	top: 60%;
+	text-align: center;
+}
+
+#div1{
+	color: white;
+	font-family: "Verdana",sans-serif;
+	font-size: 12px;
+	background: linear-gradient(to right, #011a30 0%, #49616b 70%);
+	border: 3px solid #ff751a;
+	border-radius:10px;
+	padding-right : 50px;
+	padding-left : 40px;
+	padding-top : 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 5.5%;
+	top: 8%;
+	width: 70%;
+	height: 78%;
+}
+
+input[type=text],input[type=password]{
+	border:2px solid grey;
+	border-radius: 4px;
+	display: block;
+	padding: 3px;
+	padding-left: 5px;
+	background-color:#d9d9d9; 
+	font-family: "Verdana", sans-serif;		/*tipo de fuente*/
+	font-size: 15px;				/*tamaño de fuente*/
+	outline: none;
+}
+#marcoflecha{
+	padding: 14px;
+	padding-top: 15px;
+	background-color: #001a4d;
+	height: 100%
+}
+
+#textoboton{
+	padding: 20px;
+	font-size: 16px;
+	padding-top: 16px;
+	position: relative;
+    bottom: 3px;
+}
+
+
+#fotoflecha
+{
+	width: 15%;
+	height: 43%;
+}
+input[type=submit]{
+	background-color: #ff9900; /*fondo*/
+	/*border:3px solid #c4ff33;*/		/*borde del boton*/
+	border: none;
+	padding-left: 15px;
+	outline: none;
+	padding-right: 15px;
+	height: 35px;				
+	color: #000000;				/*color de fuente*/
+	font-family: "Verdana", sans-serif;		/*tipo de fuente*/
+	font-size: 15px;				/*tamaño de fuente*/
+	font-weight: bold; 				/*negrita*/
+	vertical-align: center;			/*alineación veritcal*/
+	cursor: pointer;				/*manito */
+	border-radius: 4px;
+	display: block;
+	margin-top: 40px;
+	margin-left: -5px;
+	margin-bottom: 10px;
+
+}
+
+input[type=submit]:hover {
+    
+    background-color: #ff751a;
+    color:#000000;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button{
+	background-color: #002266; /*fondo*/
+	/*border:3px solid #c4ff33;*/		/*borde del boton*/
+	border: none;
+	padding-left: 15px;
+	outline: none;
+	padding-right: 15px;
+	width: 150px;
+	height: 45px;				
+	color: white;				/*color de fuente*/
+	font-family: "Verdana", sans-serif;		/*tipo de fuente*/
+	font-size: 15px;				/*tamaño de fuente*/
+	font-weight: bold; 				/*negrita*/
+	vertical-align: center;			/*alineación veritcal*/
+	cursor: pointer;				/*manito */
+	border-radius: 4px;
+	display: block;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+	left: 8%;
+	top:7%;
+
+
+}
+
+button:hover {
+    
+    background-color: #001a4d;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+
+
+
+
+input[type=checkbox]{
+	color: white;
+	margin-bottom: 40px;
+}
+
+.psw{
+	margin-left: -25px;
+}
+a{
+	color: #80dfff;
+	text-decoration: none;
+}
+.imgTick{
+	position: absolute;
+	top: 20%;
+	left: 32%;
+	width: 35%;
+}

@@ -1,0 +1,196 @@
+
+
+/* ----------------------------------------------------------------------------------------------------------
+
+
+
+
+/*
+1) HTML tags
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+body {background:url("../design/bg.gif") 0 0 repeat-x; font:0.8em/1.5 "arial", sans-serif;}
+
+h1, h2, h3, h4, h5, h6, p, address, blockquote, table, dl, fieldset {margin:15px 0;}
+
+/* ----------------------------------------------------------------------------------------------------------
+2) HTML styles
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+3) Layout
+---------------------------------------------------------------------------------------------------------- */
+
+#main {width:960px; margin:0 auto;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------
+4-1) Page: Homepage
+---------------------------------------------------------------------------------------------------------- */
+
+#col-top {width:960px; height:100px; margin-top:15px; background:url("../design/col-top.gif") 0 0 no-repeat; font-size:0; line-height:0; overflow:hidden;}
+#col-top2 {width:960px;  margin-top:15px; background:url("../design/col-top.gif") 0 0 no-repeat; font-size:0; line-height:0; overflow:hidden;}
+#col-bottom {width:960px; height:5px; margin-bottom:15px; background:url("../design/col-bottom.gif") 0 0 no-repeat; font-size:0; line-height:0; overflow:hidden;}
+
+#col {position:absolute;
+
+ padding:100px 50px 50px 50px;
+ background:url("../design/col.gif") 0 0 repeat-y;
+width: 910px;
+height: 830px;
+margin-bottom: 100px;}
+
+
+
+
+
+
+
+
+
+#cols2-top {width:960px; height:5px; margin-top:15px; background:url("../design/cols2-top.gif") 0 0 no-repeat; font-size:0; line-height:0; overflow:hidden;}
+#cols2-bottom {width:960px; height:5px; margin-bottom:15px; background:url("../design/cols2-bottom.gif") 0 0 no-repeat; font-size:0; line-height:0; overflow:hidden;}
+#cols2 {background:url("../design/cols2.gif") 0 0 repeat-y;}
+
+
+    #cols2 #col-right {float:left; width:920px; margin-right:1px; padding:20px;
+    border-radius: 8px;}
+
+
+
+        #cols2 .box {margin-top:15px;
+            padding: 15px 30px 15px 20px;
+
+        }
+
+
+
+
+    .col {float:left; width:308px; padding:0 1px; margin-right:15px;}
+
+
+        .imagenjuego{
+  width: 275Px;
+  height: 130px;
+  margin: 6px;
+}
+table.tablaJuegos
+
+
+
+td.tablaJuegos{
+    margin: 5px;
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------
+5) Others
+---------------------------------------------------------------------------------------------------------- */
+
+.ico-comment {padding-left:18px; background:url("../design/ico-comment.gif") 0 50% no-repeat;}
+.ico-rss {padding-left:18px; background:url("../design/ico-rss.gif") 0 50% no-repeat;}
+
+.smaller {font-size:85%;}
+
+#marco{
+    position: relative;
+    line-height: 0px;
+    font-size: 40px;
+    font-variant: small-caps;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#homepageDivizq{
+    position: absolute;
+    left: 50px;
+    overflow: hidden;
+    border: none;
+    top: 210px;
+    width: 14%;
+    height: 500px; /*si agregamos mas cosas, sacarlo*/
+    margin-left: 5px;
+    margin-right: 70px;
+}
+.divizqHeader{
+    padding-left: 6px;
+    margin-top: 10px;
+
+}
+.divizqSubheader{
+    padding-left: 6px;
+    margin-top: 15px;
+
+}
+.divizqItem{
+    display: block;
+    line-height: 24px;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+
+
+#marcoflecha{
+    padding: 14px;
+    padding-top: 15px;
+    background-color: #001a4d;
+    height: 100%
+}
+
+#textoboton{
+    padding: 20px;
+    font-size: 16px;
+    padding-top: 16px;
+    position: relative;
+    bottom: 3px;
+}
+
+
+#fotoflecha
+{
+    width: 15%;
+    height: 43%;
+}
+
+button{
+    background-color: #002266; /*fondo*/
+    /*border:3px solid #c4ff33;*/       /*borde del boton*/
+    border: none;
+    padding-left: 15px;
+    outline: none;
+    padding-right: 15px;
+    width: 150px;
+    height: 45px;
+    color: white;               /*color de fuente*/
+    font-family: "Verdana", sans-serif;     /*tipo de fuente*/
+    font-size: 15px;                /*tamaño de fuente*/
+    font-weight: bold;              /*negrita*/
+    vertical-align: center;         /*alineación veritcal*/
+    cursor: pointer;                /*manito */
+    border-radius: 4px;
+    display: block;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 8%;
+    top:7%;
+
+
+}
+
+button:hover {
+
+    background-color: #001a4d;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}

@@ -1,0 +1,267 @@
+
+.navegacion li {
+    background-color: #4d4d4d;
+    list-style: none;
+    z-index: 10;
+    position: relative;
+    text-align: left;
+
+}
+
+
+.navegacion li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+
+    font-size: 15px;                /*tamaño de fuente*/
+    padding: 17px 30px 11px 30px;
+    display: block;
+
+    white-space: nowrap;
+    /*border: 2px solid black;*/
+
+    border-collapse: collapse;
+    cursor: pointer;
+
+}
+#origen{
+    padding-left:20px;
+    background-image: url(../img/origenicon.png);
+    background-position-x: 8px;
+    background-position-y: 5px;
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+#xbox{
+    padding-left:20px;
+    background-image: url(../img/xboxicon.png);
+    background-position-x: 8px;
+
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+
+#steam{
+    padding-left:20px;
+    background-image: url(../img/steamicon.png);
+
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+#playstation{
+    padding-left:20px;
+    background-image: url(../img/psicon.png);
+    background-position-x: 12px;
+
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+#apple{
+    padding-left:20px;
+    background-image: url(../img/appleicon.png);
+    background-position-x: 8px;
+
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+#gameforge{
+    padding-left:20px;
+    background-image: url(../img/gameforgeicon.png);
+    background-position-x: 5px;
+
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+
+#blizzard{
+    padding-left:20px;
+    background-image: url(../img/blizzardicon.png);
+
+    background-position-y: -2px;
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+#uplay{
+    padding-left:20px;
+    background-image: url(../img/uplayicon.png);
+     background-position-x: 5px;
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+#nintendo{
+    padding-left:20px;
+    background-image: url(../img/nintendoicon.png);
+    background-position-x: -2px;
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+#oculus{
+    padding-left:20px;
+    background-image: url(../img/oculusicon.png);
+    background-position-x: 4px;
+
+    background-size: initial;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+
+     overflow: hidden;
+
+}
+
+.primer{
+
+    height: 100%;
+    padding-top: 3px;
+
+
+
+}
+
+
+  i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 7px;
+
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.navegacion li:hover {
+    background-color: #333;
+}
+.navegacion > li {
+    display: inline-block;
+}
+.navegacion > li:last-child {
+   border-right: none;
+}
+
+.navegacion li ul {
+    display:none;
+    position: absolute;
+}
+.navegacion li:hover > ul {
+
+    display: block;
+}
+
+
+.navegacion > li ul{
+    top: 0%;
+    left: 100%;
+    padding-left: 1px;
+}
+.navegacion li.tieneSubMenu {
+    background: url("../img/flecha-submenu_16.png") no-repeat scroll 100% 50% #787878;
+    padding-right: 20px;
+
+}
+.navegacion > li .nivel1 {
+    top: 100%;
+    left: 0;
+    padding-top: 1px;
+    padding-left: 0;
+
+}
+.navegacion > li .nivel1 li{
+    border:1px solid black;
+    border-top:none;
+}
+
+.navegacion li.tieneSubMenu:hover {
+    background-color: #333;
+}
+
+.navegacion li.tieneSubMenu > a {
+    cursor: default;
+}
+li{
+    opacity: 1;
+}
+#menuNavegacion{
+    font-family: Verdana;
+    font-size: 13px;
+}
